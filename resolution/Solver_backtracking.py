@@ -26,7 +26,7 @@ class MazeSolver:
         else:
             return None  # Aucun chemin trouvé
 
-maze_file = "resolution/labyrinthe/labyrinthe35x35" 
+maze_file = "resolution/labyrinths/labyrinthe35x35" 
 with open(maze_file, 'r') as file:
     maze = [list(line.strip()) for line in file.readlines()]
 

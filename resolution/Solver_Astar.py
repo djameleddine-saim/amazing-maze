@@ -55,7 +55,7 @@ class MazeSolver:
         return abs(current[0] - goal[0]) + abs(current[1] - goal[1])
 
 # Chemin vers le fichier texte contenant le labyrinthe
-maze_file = "resolution/labyrinthe/labyrinthe150x150"
+maze_file = "resolution/labyrinths/labyrinthe150x150"
 
 # Chargez le labyrinthe depuis le fichier texte
 with open(maze_file, 'r') as file:
