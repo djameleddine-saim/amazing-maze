@@ -8,8 +8,8 @@ class Maze:
         self.n = int(input("Entrez la taille du labyrinthe (N): "))
         self.board = [[Case(x, y) for x in range(self.n)] for y in range(self.n)] 
 
-        self.output_directory_backtracking = "backtracking_labyrinths"  # Dossier pour les labyrinthes Backtracking
-        self.output_directory_kruskal = "kruskal_labyrinths"  # Dossier pour les labyrinthes Kruskal
+        self.output_directory_backtracking = "generation/backtracking_labyrinths"  # Dossier pour les labyrinthes Backtracking
+        self.output_directory_kruskal = "generation/kruskal_labyrinths"  # Dossier pour les labyrinthes Kruskal
 
         # Créez les dossiers s'ils n'existent pas
         os.makedirs(self.output_directory_backtracking, exist_ok=True)
