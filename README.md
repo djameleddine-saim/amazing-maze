@@ -70,8 +70,13 @@ L'algorithme de résolution A* est utilisé pour trouver le chemin le plus court
 
 #### - Exemple de Génération d'un Labyrinthe en image
 
+![maze_before_resolution](https://github.com/djameleddine-saim/amazing-maze/assets/115147662/fe0b8961-47db-44d2-81f0-7a6fb726c9cf)
+
+
 
 #### - exemples de Résolution d'un Labyrinthe
+
+![maze_after_resolution](https://github.com/djameleddine-saim/amazing-maze/assets/115147662/2c7d5816-1097-4960-974d-bf6d1780d5b1)
 
 
 ## Conclusion
