@@ -126,5 +126,3 @@ class Maze:
                 maze_str += "".join(line) + "\n"
             file.write(maze_str)
         print(f"Le labyrinthe a été enregistré dans {file_path}")
-
-

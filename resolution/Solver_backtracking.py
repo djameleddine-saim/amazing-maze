@@ -1,3 +1,4 @@
+#import timeit # Mesure le temps d'exécution de la fonction solve
 from PIL import Image, ImageDraw
 
 # l'algorithme peut résoudre un labyrinthe de 35x35
@@ -92,7 +93,9 @@ if solution:
     maze_image_after.save("resolution/image_labyrinthe_backtracking/maze_after.jpg")
     print("Image du labyrinthe après la résolution enregistrée sous 'maze_after.jpg'")
 
+#execution_time = timeit.timeit(lambda: maze_solver.solve(), number=1)
 
+#print("Temps d'exécution : ", execution_time, " secondes")
 
 
 

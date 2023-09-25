@@ -1,3 +1,5 @@
+#import timeit # Pour mesurer le temps d'exécution
+
 from PIL import Image, ImageDraw
 
 class MazeSolver:
@@ -131,6 +133,10 @@ if path:
     # Enregistrez l'image après la résolution
     maze_image_after.save("resolution/image_labyrinthe_Astar/maze_after_resolution.jpg")
     print("Image du labyrinthe après la résolution enregistrée sous 'maze_after_resolution.jpg'")
+
+# execution_time = timeit.timeit(lambda: maze_solver.solve(start, goal), number=1) # Mesure le temps d'exécution de la fonction solve
+
+# print("Temps d'exécution : ", execution_time, " secondes")
 
 
 
